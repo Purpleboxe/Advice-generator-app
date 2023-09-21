@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
 :root {
     --grayishBlue: hsl(217, 19%, 38%);
     --darkGrayishBlue: hsl(217, 19%, 24%);
@@ -10,4 +12,70 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--darkBlue);
+    font-family: 'Manrope', 'sans-serif';
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Advice */
+
+.advice {
+    background-color: var(--darkGrayishBlue);
+    padding: 1rem 2rem;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px hsl(220, 17%, 14%);
+}
+
+.advice-id {
+    color: var(--neonGreen);
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.advice-text {
+    color: var(--lightCyan);
+    font-size: 28px;
+    margin: 30px 0;
+    width: 500px;
+}
+.dice {
+    position: relative;
+    top: 45px;
+    background-color: var(--neonGreen);
+    background-image: url(images/icon-dice.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 4rem;
+    height: 4rem;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.dice:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 75%);
+}
+
+/* Attribution */
+
+.attribution {
+    margin-top: 5rem;
+    color: var(--lightCyan);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }

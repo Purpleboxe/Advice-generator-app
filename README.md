@@ -23,6 +23,7 @@ This is my solution to the [Advice generator app challenge on Frontend Mentor](h
 
 In this project I learned how to call from an api using fetch.
 I'm quite proud of myself for figuring that out and also for laying out the website with flex.
+Learning how to use media query was actually a bit challenging however I finally managed to figure it out.
 
 ## Conclusion
 

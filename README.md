@@ -22,10 +22,9 @@ This is my solution to the [Advice generator app challenge on Frontend Mentor](h
 ### What I learned
 
 In this project I learned how to call from an api using fetch.
-I'm quite proud of myself for figuring that out and also for laying out the website with flex.
-Learning how to use media query was actually a bit challenging however I finally managed to figure it out.
+I also learned how to make the website compatible for all screen sizes as well.
 
 ## Conclusion
 
 In all this project was simple, but still took me some work to do.
-I'm glad I could get something out of this project.
+I'm glad I could get something out of this project in the end.
